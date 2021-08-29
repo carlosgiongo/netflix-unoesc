@@ -1,0 +1,90 @@
+#main{
+    background-color: black;
+}
+
+.container.main{
+    max-width: 1100px !important;
+}
+
+.img-card{
+    margin-top: 3px;
+}
+
+.img-card img{
+    max-width: 220px;
+}
+
+.button-card button{
+    height: 25px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    background-color: #d8534e;
+    border-style: none;
+}
+
+.footer-card{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer-card h1{
+    font-size: 25px;
+}
+
+.logo-imagem{
+    margin-top: 30px;
+}
+
+.logo-imagem img{
+    margin-left: 80px;
+}
+
+.card{
+    background-color: white;
+    width: 235px;
+}
+
+.card{
+    margin: 5px;
+}
+
+.informacoes{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.sinopse p{
+    max-width: 840px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .icone-netflix{
+        text-align: center;
+    }
+
+    .informacoes{
+        margin-left: unset;
+    }
+    
+    .sinopse p{
+        text-align: justify;
+        padding: 4px;
+    }
+
+    iframe{
+        height: 240px !important;
+    }
+}
+
+@media (max-width: 535px) {
+    .logo-imagem img {
+        margin-left: 0px;
+    }
+
+    .logo-imagem{
+        text-align: center;
+    }
+}

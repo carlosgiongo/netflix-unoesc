@@ -1,0 +1,7 @@
+Apenas checar se o .htaccess contém as linhas:
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Caso contrário ele vai quebrar as requisições para as paginas dos filmes
